@@ -9,10 +9,9 @@ public class OrderPizza {
 
         Pizza pizza = null;
         String orderType;
-        Factory factory = new Factory();
         do {
             orderType = getType();
-            pizza = factory.getPizza(orderType);
+            pizza = Factory.getPizza(orderType);
             pizza.setName(orderType);
 //            orderType = getType();
 //            if (orderType.equals("greek")) {
