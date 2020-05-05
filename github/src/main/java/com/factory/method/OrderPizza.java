@@ -1,8 +1,5 @@
 package com.factory.method;
 
-import com.factory.method.Factory;
-import com.factory.method.Pizza;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
